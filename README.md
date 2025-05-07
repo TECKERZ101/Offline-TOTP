@@ -21,3 +21,5 @@
 8. Compile the python file into an exe
 `pyinstaller main.py`
 9. Wait for it to finish compiling.
+> [!IMPORTANT]
+> The files contained in the executable/bin folder (the folder containing the exe file) are **ALL** needed for the exe to function properly.
