@@ -1,6 +1,9 @@
 # Offline-TOTP
 ## Setup Instructions
 
+> [!NOTE]
+> This repo does not contain .ps1 files, instead these files are named without the file extension due to restrictions.
+
 ### Prerequisites
 1. You will need python and pip installed before starting
 2. Install the virtualenv package if not already installed
@@ -23,3 +26,5 @@
 9. Wait for it to finish compiling.
 > [!IMPORTANT]
 > The files contained in the executable/bin folder (the folder containing the exe file) are **ALL** needed for the exe to function properly.
+
+### Usage
