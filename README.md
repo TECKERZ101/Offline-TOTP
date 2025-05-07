@@ -4,7 +4,7 @@
 ### Prerequisites
 1. You will need python and pip installed before starting
 2. Install the virtualenv package if not already installed
-```pip install virtualenv```
+`pip install virtualenv`
 
 ### Setup
 1. Clone the repo into a folder
