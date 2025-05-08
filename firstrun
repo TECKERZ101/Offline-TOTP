@@ -1,0 +1,3 @@
+Expand-Archive -LiteralPath '.\executable\dist\main.zip' -DestinationPath '%userprofile%\Documents\OfflineOTP'
+cd %userprofile%\Documents\OfflineOTP\main
+./main.exe
