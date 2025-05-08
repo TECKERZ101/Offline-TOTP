@@ -1,1 +1,1 @@
-Compress-Archive -LiteralPath '.\executable\dist\*' -DestinationPath '.\excecutable\dist\main.zip'
+Compress-Archive -LiteralPath '.\executable\dist\*' -DestinationPath '.\executable\dist\main.zip'
