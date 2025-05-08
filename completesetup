@@ -1,0 +1,7 @@
+pip install virtualenv
+cd executable
+python -m venv env
+env\Scripts\Activate.ps1
+pip install pyotp pyperclip pyinstaller
+pyinstaller main.py
+Compress-Archive -LiteralPath 'dist\*' -DestinationPath '..\TOTP\main.zip'
