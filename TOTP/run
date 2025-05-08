@@ -1,0 +1,4 @@
+$downloadsPath = (New-Object -ComObject Shell.Application).Namespace('shell:Downloads').Self.Path
+Expand-Archive -LiteralPath 'main.zip' -DestinationPath '$downloadsPath\OfflineOTP'
+cd $downloadsPathOfflineOTP\main
+./main.exe
