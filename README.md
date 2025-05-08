@@ -52,4 +52,14 @@ powershell type .\zippify|powershell
 > [!WARNING]
 > Do not delete the .zip file
 
+### First Run
+On the first run of the program on a new machine, run the first run script to install the exe on local machine
+```
+powershell type .\firstrun|powershell
+```
+
 ### Usage
+To run the program after first run use the run script
+```
+powershell type .\run|powershell
+```
