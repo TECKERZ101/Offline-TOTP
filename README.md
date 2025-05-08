@@ -36,7 +36,9 @@ pip install pyotp pyperclip pyinstaller
   
 7. Compile the python file into an exe
 ```
-pyinstaller .\executable\main.py
+cd executable
+pyinstaller main.py
+cd ..
 ```
 
 8. Wait for it to finish compiling.
